@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro Usuario</h1>
+    <form method="POST">
+        <label for="nombre">Nombres: </label><br />
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          tabindex="1"
+          placeholder="Escribe tu nombre"
+          required="true"
+        /><br/><br/>
+
+        <label for="apellido">Apellidos: </label><br />
+        <input
+          type="text"
+          id="apellido"
+          name="apellido"
+          tabindex="2"
+          placeholder="Escribe tu apellido"
+          required
+        /><br/><br/>
+
+        <label for="correo">Email: </label><br />
+        <input
+          type="email"
+          id="correo"
+          name="correo"
+          tabindex="3"
+          placeholder="Escribe tu email"
+          required
+        /><br/><br/>
+
+        <label for="celular">Celular: </label><br />
+        <input
+          type="number"
+          id="celular"
+          name="celular"
+          tabindex="4"
+          placeholder="Escribe tu numero de celular"
+          required
+        /><br/><br/>
+
+        <label for="edad">Fecha de nacimiento: </label><br />
+        <input
+          type="date"
+          id="edad"
+          name="edad"
+          tabindex="5"
+          placeholder="Escribe tu edad"
+          required
+        /><br/><br/>
+
+        <button type="submit">Guardar</button>
+
+    </form>
+</body>
+</html>
